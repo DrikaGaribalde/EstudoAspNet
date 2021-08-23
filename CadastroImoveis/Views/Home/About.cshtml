@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Sobre";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>Criar um CRUD de Cliente utilizando ASP NET MVC e persistência de dados utilizando (EF, Dapper).</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Criar um CRUD de Clientes</h3>
+        <p>
+            <i class="fa fa-shield fa-rotate-270"></i> Incluir um cliente<br>
+            <i class="fa fa-shield fa-rotate-270"></i> Campos: Nome, Email, CPF, ativo<br>
+            <i class="fa fa-shield fa-rotate-270"></i> Editar um cliente<br>
+            <i class="fa fa-shield fa-rotate-270"></i> Excluir um cliente<br>
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Criar um CRUD de Imóvel</h3>
+        <i class="fa fa-shield fa-rotate-270"></i> Listar Imóvel<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Campos: Tipo de Negócio (venda ou aluguel), valor, descrição, ativo
+        Somente a descrição não é obrigatória<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Incluir um Imóvel<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Editar um Imóvel<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Excluir um Imóvel<br>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Regras:</h3>
+        <i class="fa fa-shield fa-rotate-270"></i> Não permitir a inclusão de mais de um cliente com o mesmo CPF ou mesmo e-mail<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Não permitir relacionar mais de um cliente ao mesmo imóvel<br>
+        <i class="fa fa-shield fa-rotate-270"></i> No cadastro de imóveis, não listar clientes inativos<br>
+        <i class="fa fa-shield fa-rotate-270"></i> Não permitir a exclusão de um imóvel que esteja relacionado a um cliente<br>
+    </div>
+</div>
